@@ -1,0 +1,17 @@
+name: bcd
+
+dependencies:
+  - python=3.8
+  - pytorch::pytorch=1.7.1
+  - cudatoolkit=11.0
+  - numpy
+  - pip
+  - pip:
+      - gym
+      - gym3
+      - cloudpickle
+      - pytest
+      - more-itertools
+      - gitpython
+      - gym_minigrid
+      - opencv-python
